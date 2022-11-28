@@ -125,3 +125,17 @@ body.p3 {
     background-repeat: no-repeat;
     background-image: url(images/);
 }
+
+h1.ani {
+    background-color: crimson;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+p.ani {
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
