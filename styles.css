@@ -1,0 +1,127 @@
+/*
+
+    selector {
+        property: Value"
+        property: Value"
+        property: Value"
+        ect.
+    }
+
+    Selector options:
+
+    tag name, such as p or img
+    .classname. such as .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+    tagname>tagename
+    .classname>tagname
+    tagname>.classname
+    .classname>.classname
+*/
+
+.nav {
+    list-style: none;
+    
+    border-style: dotted;
+    
+    padding-left: 0;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+}
+
+.nav>li {
+    border-style: ridge;
+    
+    display: inline-block;
+
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+img.flag {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+body.home {
+    background-image: url(images/night\ city.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+p.jap {
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+    width: 25%;
+}
+
+h1.home {
+    text-align: center;
+    background-color: darkred;
+}
+
+h1.cult {
+    text-align: center;
+    background-color: rgb(77, 6, 98);
+}
+
+body.p1 {
+    background-image: url(images/firework\ festival.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.fire {
+    text-align: center;
+    background-color: rgb(4, 116, 153);
+}
+
+p.fire {
+    background-color: chocolate;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+body.p2 {
+    background-image: url(Images/burning-cooking.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.food {
+    background-color: turquoise;
+    text-align: center;
+}
+
+p.food {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+body.p3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/);
+}
